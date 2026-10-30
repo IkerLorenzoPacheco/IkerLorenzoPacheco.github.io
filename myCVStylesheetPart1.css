@@ -1,0 +1,149 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    background-color: #ffffff;
+    line-height: 1.5;
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+
+/* main title including my name */
+h1 {
+    width: 100%;
+    order: -2;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    color: #0d2342;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0 0 10px 0;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #0d2342;
+    text-align: center;
+}
+
+/* img, contact, about me */
+body > div:last-of-type {
+    display: flex;
+    flex-direction: column; /* to make it fit into the right following a vertical structure */
+    order: -1;
+    width: 280px;
+    flex-shrink: 0;
+    gap: 25px;
+    padding-right: 25px;
+    border-right: 2px solid #e0e6ed;
+}
+
+/* making my photo circular */
+body > div:last-of-type img[src="imagenCurriculum"] {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #0d2342;
+    align-self: center;
+    margin-bottom: 5px;
+}
+
+/* containers inside lateral panel*/
+body > div:last-of-type > div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* gap between elements inside the side panel */
+}
+
+/* icon + text rows */
+body > div:last-of-type span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+body > div:last-of-type span img {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}
+
+/* main sections (experience, academic training, certificates, language skills */
+.mainColumn {
+    flex: 1 1 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* titles introducing main sections */
+div > h2:not(.sideH2) {
+    font-family: 'Arial Black', Arial, sans-serif;
+    color: #0d2342; / Azul marino extraído del PDF */
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    border-bottom: 2px solid #0d2342;
+    padding-bottom: 4px;
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+
+/* title of every formation I have in the main section */
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2b6cb0; / Azul medio de los subencabezados */
+    font-size: 0.98rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+
+div > p,
+div > span > p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    font-size: 0.92rem;
+    /* to add extra height in each row */
+    margin-top: 2px;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+/* giving horitzontal format to every language */
+div > span {
+    display: flex; /* sets the language components side by side */
+    align-items: center; /* centers components vertically */
+    gap: 8px;
+}
+
+/* to make the language name not sit lower than the language proficiency, reseting the changes made in h3 selector */
+div > span > h3 {
+    margin: 0;
+}
+
+/* 4. contact and about me titles */
+.sideH2 {
+    font-family: 'Arial Black', Arial, sans-serif;
+    color: #0d2342;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    border-bottom: 2px solid #2b6cb0;
+    padding-bottom: 3px;
+}
+
+/* text on contact/about me */
+body > div:last-of-type p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    font-size: 0.92rem;
+    line-height: 1.4;
+    margin: 0;
+    text-align:justify;
+}
