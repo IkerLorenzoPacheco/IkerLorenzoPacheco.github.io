@@ -10,6 +10,6 @@ For the remaining data to show, I've decided to group together my contact info a
 Visual Design Decisions: 
 
 I wanted to imitate the same visual design I used for the PDF version of my curriculum vitae, so that's basically what I did. I chose to set two main columns: a heavy one, loaded with content and containing all the details about my professional trajectory, and a thinner one that is less verbally but visually describing. I decided to put my name on the page's head with , and everything else underneath.
-For every section, the text is set to uppercase letters and dark blue color, with a line that separates the title of each part from its elements (which will be of a lighter color tone). I also 
+For every section, the text is set to uppercase letters and dark blue color, with a line that separates the title of each part from its elements (which will be of a lighter color tone). I also wanted to 
 
-Figma Project Link: 
+Figma Project Link: https://www.figma.com/design/awf8BUDMXN8VOi9KW3V05V/CV-FIgma-Project?node-id=0-1&t=4gPFyRoU5kW4YJBM-1
