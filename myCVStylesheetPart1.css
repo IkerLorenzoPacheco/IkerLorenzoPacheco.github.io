@@ -94,7 +94,7 @@ div > h2:not(.sideH2) {
 /* title of every formation I have in the main section */
 h3 {
     font-family: Arial, Helvetica, sans-serif;
-    color: #2b6cb0; / Azul medio de los subencabezados */
+    color: #2b6cb0;
     font-size: 0.98rem;
     font-weight: bold;
     text-transform: uppercase;
