@@ -82,7 +82,7 @@ body > div:last-of-type span img {
 /* titles introducing main sections */
 div > h2:not(.sideH2) {
     font-family: 'Arial Black', Arial, sans-serif;
-    color: #0d2342; / Azul marino extraído del PDF */
+    color: #0d2342;
     font-size: 1.25rem;
     text-transform: uppercase;
     border-bottom: 2px solid #0d2342;
